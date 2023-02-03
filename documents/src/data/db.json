@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "project1",
+      "details": "this is a project1!",
+      "isCompleted": true,
+      "id": 1
+    },
+    {
+      "title": "project2",
+      "details": "this is a project2!",
+      "isCompleted": false,
+      "id": 2
+    }
+  ]
+}
