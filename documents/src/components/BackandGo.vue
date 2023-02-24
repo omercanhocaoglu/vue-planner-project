@@ -10,13 +10,13 @@
     export default {
         methods: {
             Back () {
-                this.$router.go(+1)
+                this.$router.go(-1)
             },
             Home () {
                 this.$router.push({ name: "home" })
             },
             Forward () {
-                this.$router.back(-1)
+                this.$router.back(+1)
             }
         },
     }
